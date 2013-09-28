@@ -5,7 +5,7 @@ import tempfile
 import csv
 
 
-def get_spreadsheet(account, password, key, gid=0):
+def get_spreadsheet(account, password, key, gid):
     gd_client = gdata.docs.service.DocsService()
     gd_client.email = account
     gd_client.password = password
