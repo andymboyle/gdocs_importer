@@ -9,8 +9,8 @@ from gdocs_importer.lib import get_spreadsheet
 
 GOOGLE_KEY = '0Ark-PJD-Ze_DdHBfaUtjZzVjcm51azc5dVIyYk5JT2c'  # Enter the Google key here
 GOOGLE_SHEET = '0'  # This is the Google spreadsheet sheet number you're looking at, and 0 is the default first one
-GOOGLE_ACCOUNT = 'andymboyle@gmail.com'  # Enter your Google account name here, blahwhatever@gmail.com
-GOOGLE_PASS = '508timberline1'  # Enter your Google account password here
+GOOGLE_ACCOUNT = 'yourgmail@gmail.com'  # Enter your Google account name here, blahwhatever@gmail.com
+GOOGLE_PASS = 'password'  # Enter your Google account password here
 
 
 class Command(BaseCommand):
